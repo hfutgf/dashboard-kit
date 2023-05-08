@@ -1,0 +1,58 @@
+.pagenetion {
+  display: flex;
+  align-items: center;
+  margin-left: 60%;
+  gap: 80px;
+  padding: 20px;
+
+  .rows {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    p {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    select {
+      border: none;
+      font-size: 12px;
+      background: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+  .quantity {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .none {
+    display: none;
+  }
+  .pagenetion-btn {
+    display: flex;
+    gap: 20px;
+    .none-left {
+      display: none;
+    }
+    .none-right {
+      display: none;
+    }
+    .pagenetion-btn__right {
+      display: block;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      background: none;
+    }
+    .pagenetion-btn__left {
+      display: block;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      background: none;
+    }
+  }
+}
