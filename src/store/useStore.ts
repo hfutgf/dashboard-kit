@@ -123,7 +123,7 @@ export const useStore:any = create<IUseStore>((set) => ({
         users: [...arr],
         first: `${count}`,
         last: `${lastCount}`,
-      };
+      };  
     }),
 
   sortedPriority: (priority: string) =>
